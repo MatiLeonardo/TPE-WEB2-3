@@ -45,7 +45,7 @@ END;
 
     function getCategorias($filtrarOferta = null, $orderBy = false)
     {
-        $sql = 'SELECT * FROM categorias';
+        $sql = 'SELECT * FROM categoria';
 
         if ($filtrarOferta != null) {
             if ($filtrarOferta == 'true')

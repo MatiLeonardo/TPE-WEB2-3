@@ -1,5 +1,6 @@
 <?php
 require_once 'libs/router.php';
+require_once 'app/controllers/categoria.api.controller.php';
 
 $router = new Router();
 
